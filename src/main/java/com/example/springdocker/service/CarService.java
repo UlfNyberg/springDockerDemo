@@ -30,6 +30,7 @@ public class CarService {
 
     public List<String> getRunnableCars() {
         // hämtar alla Cars som vi kan köra
+        // liten testrad
         List<Car> runnableCars = repository.findCarsByCanIDriveIt(true);
 
         // returnerar endast cars namnen i en lista
