@@ -11,13 +11,18 @@ public class MyMathCalc {
     private int num1, num2, result;
     private double doubleResult;
 
+
+
     public int add(int a, int b){
+
         return a+b;
     }
 
     public int multiply(int a, int b){
+
         return a * b;
     }
+
 
     public double divide(int a, int b){
         doubleResult = a / b;
