@@ -9,7 +9,9 @@ package com.example.springdocker.model;
  */
 public class MyMathCalc {
     private int num1, num2, result;
-    private float floatResult;
+    private double doubleResult;
+
+
 
     public int add(int a, int b){
 
@@ -21,10 +23,10 @@ public class MyMathCalc {
         return a * b;
     }
 
-    public float divide(int a, int b){
 
-        floatResult = a / b;
-        return floatResult;
+    public double divide(int a, int b){
+        doubleResult = a / b;
+        return doubleResult;
     }
 
     /*
