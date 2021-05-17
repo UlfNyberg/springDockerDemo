@@ -35,7 +35,7 @@ public class CarService {
 
         // returnerar endast cars namnen i en lista
         return runnableCars.stream()
-                .map(food -> food.getName())
+                .map(car -> car.getName())
                 .collect(Collectors.toList());
     }
 }
